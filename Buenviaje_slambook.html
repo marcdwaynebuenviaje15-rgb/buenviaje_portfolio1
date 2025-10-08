@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Slambook</title>
+</head>
+
+<body>
+    <header>
+        <h1>SLAMBOOK!</h1>
+    </header>
+    <form>
+        <input type="text" name="name" placeholder="Surname, First Name M.I" id="name">
+        <label for="name">Name:</label><br>
+
+        <input type="email" name="email" placeholder="yourname@domain" id="email">
+        <label for="">E-Mail Address:</label><br>
+
+        <input type="tel" name="contact_number" placeholder="(63+)xxx-xxx-xxxx" id="contact_number">
+        <label for="contact_number">Contact Number:</label><br>
+
+        <input type="url" name="fb_name" placeholder="facebook.com/user" id="fbname">
+        <label for="fbname">Facebook Account:</label><br>
+
+        <input type="search" name="search" placeholder="Search Here" id="search">
+        <label for="search">Search:</label><br>
+
+        <input type="number" name="number" id="number" min="0" max="20" value="0">
+        <label for="number">Favourite Number (0-20)</label>
+
+        <textarea name="Motto" id="Motto" rows="3" placeholder="What's your motto?"></textarea><br><br>
+        <fieldset>
+            <legend>Which snacks do you enjoy the most?</legend>
+            <input type="checkbox" name="snacks" value="1" id="chips">
+            <label for="chips">Chips</label> <br>
+            <input type="checkbox" name="snacks" value="2" id="chocolate">
+            <label for="chocolate">Chocolates</label> <br>
+            <input type="checkbox" name="snacks" value="3" id="fruits">
+            <label for="fruits">Fruits</label> <br>
+            <input type="checkbox" name="snacks" value="4" id="cookies">
+            <label for="cookies">Cookies</label> <br>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>If you could go anywhere for a vacation, where would you choose?</legend>
+            <input type="radio" name="vacation" value="1" id="beach">
+            <label for="beach">Beach</label><br>
+            <input type="radio" name="vacation" value="2" id="mountains">
+            <label for="mountains">Mountains</label><br>
+            <input type="radio" name="vacation" value="3" id="city">
+            <label for="city">City</label><br>
+            <input type="radio" name="vacation" value="4" id="countryside">
+            <label for="countryside">Countryside</label><br>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Preferred Music Genre</legend>
+            <select name="music_genre">
+                <option value="Pop">Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Hip-Hop">Hip-Hop</option>
+                <option value="Classical">Classical</option>
+            </select>
+        </fieldset>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
